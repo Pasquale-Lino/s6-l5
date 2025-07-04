@@ -19,36 +19,55 @@
     </nav>
 
     <main>
-            <div class="row justify-content-center">
-        <div class="col-md-6">
-            <h1 class="text-light justify-content-center text-center">Edit Profile</h1>
-        </div>
-        <div class="col-md-2"></div>
-    </div>
-<div class="container">
-    <div class="row justify-content-center">
-        <div class="col-md-6">
-        <hr class="bg-dark">
-      <div class="row justify-content-between">
-        <div class="col-md-2 ">
-          <img src="/Netflix-assets/assets/media/verd.PNG" alt="Immagine" class="">
-        </div>
-        <div class="col-md-8 p-0 mt-0 ">
-          <div class="bg-secondary p-1 mb-2">
-            <h6 class="text-white">Strive Student</h6>
-          </div>
-          <p class="text-light">Language:</p>
-          <select id="selector" class="bg-black w-auto form-control text-white border-white ">
-              <option>Italiano</option>
-              <option>Inglese</option>
-              <option>Spagnolo</option>
-              <!-- altre opzioni -->
-            </select>
-            <hr class="bg-dark">
-        </div>
-      </div>
-    </div>
-  </div>
+    <div class="row justify-content-center"> 
+  <div class="col-md-3"> 
+    <h1 class="text-light m-0 justify-content-center text-center">Edit Profile</h1> 
+  </div> 
+  <div class="col-md-3"></div> 
+</div> 
+<div class="container"> 
+  <div class="row justify-content-center"> 
+    <div class="col-md-6"> 
+      <hr class="bg-dark"> 
+      <div class="row justify-content-between"> 
+        <div class="col-md-2 "> 
+          <img src="/Netflix-assets/assets/media/verd.PNG" alt="Immagine" class=""> 
+        </div> 
+        <div class="col-md-8 p-0 mt-0 "> <!--colonna di destra-->
+          <div class="bg-secondary p-1 mb-2"> 
+            <h6 class="text-white  p-2 m-0">Strive Student</h6> 
+          </div> 
+          <p class="text-light">Language:</p> 
+          <select id="selector" class="bg-black w-auto form-control text-white border-white " style="background-color: #000 !important;"> 
+            <option>Italiano</option> 
+            <option>Inglese</option> 
+            <option>Spagnolo</option> 
+          </select> 
+          <hr class="bg-dark"> 
+          <p class="text-light">Maturity Settings:</p> 
+         <div class="bg-dark p-1 mb-0 d-inline-block">
+        <h6 class="text-white fw-bold p-1 m-0">ALL MATURITY RATINGS</h6>
+            </div>
+            <p class="text-light mt-2">Show titles of all maturity ratings for this profile.</p> 
+            <button class="btn border-secondary text-secondary px-4">EDIT</button> 
+          <hr class="bg-dark"> 
+          <p class="text-light">Autoplay controls</p>
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" id="autoplayNext">
+  <label class="form-check-label text-light px-4" for="autoplayNext">Autoplay next episode in a series on all devices.</label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" id="autoplayPreviews">
+  <label class="form-check-label text-light px-4" for="autoplayPreviews">Autoplay previews while browsing on all devices.</label>
+</div>
+</div><!-- la colonna di destra finisce qua-->
+</div>
+<hr class="bg-dark"> 
+<button class="btn bg-white text-dark border-white px-4 mx-2" style="font-weight: bold;">SAVE</button>
+<button class="btn border-dark text-dark bg-transparent px-4 mx-2" style="font-weight: bold;">CANCEL</button>
+<button class="btn border-dark text-dark bg-transparent px-4" style="font-weight: bold;">DELETE PROFILE</button>
+    </div> 
+  </div> 
 </div>
     </main>
     <footer>
